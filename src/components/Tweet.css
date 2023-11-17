@@ -1,0 +1,93 @@
+*{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root{
+  --twitter-blue: #1da1f2
+}
+
+body , input, textarea , button{
+  font: 400 1.6rem Roboto, sans-serif
+}
+
+body{
+  color: #0f1419;
+  -webkit-font-smoothing: antialiased;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  color: inherit;
+}
+
+.tweet{
+  padding: 2.4rem 2rem;
+  display: grid;
+  grid-template-columns: 4.8rem 1fr;
+  border-bottom: 1px solid #ebeef0;
+  text-decoration: none;
+}
+
+.tweet img{
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 9999px;
+}
+
+.tweet .tweet-content {
+  margin-left: .8rem;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem; 
+}
+
+.tweet .tweet-content .tweet-content-header{
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: 20pt;
+} 
+
+.tweet .tweet-content .tweet-content-header span {
+  font-size: 1.4rem;
+  color: #89a2b8;
+}
+
+.tweet .tweet-content .paragrah {
+  padding-left: .1rem;
+  line-height: 1.25rem;
+  font-size: 11pt;
+  color: #27303b
+}
+
+.tweet .tweet-content .tweet-content-footer{
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  margin-top: 1.2rem;
+}
+
+.tweet .tweet-content .tweet-content-footer button{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  background: transparent;
+  border: 0;
+  font-size: 1.4rem;
+  color: #89a2b8
+}
+
+.tweet .tweet-content .tweet-content-footer button:hover{
+  color: var(--twitter-blue)
+}
+
+.tweet .tweet-content .tweet-content-footer button svg{
+  width: 2rem;
+  height: 2rem;
+}

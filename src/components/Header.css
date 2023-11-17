@@ -1,0 +1,28 @@
+*{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root{
+  --twitter-blue: #1da1f2
+}
+
+.timeline-header{
+  padding: 2.4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ebeef0;
+}
+
+
+.timeline-header svg{
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--twitter-blue);
+}
+

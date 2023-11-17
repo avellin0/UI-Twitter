@@ -1,0 +1,16 @@
+*{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root{
+  --twitter-blue: #1da1f2
+}
+.separator{
+  height: 1.2rem;
+  background: #f7f9fa;
+  border-top: 1px solid #ebeef0;
+  border-bottom: 1px solid #ebeef0;
+}
